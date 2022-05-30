@@ -1,0 +1,24 @@
+.bg-image{
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 60%;
+}
+.bg-image h2{
+    margin-left: 56%;
+    padding-top: 15%;
+    color: white;
+    font-weight: 18px;
+}
+
+.container{
+    width: 60%;
+}
+
+.container h2, h3, h5{
+    text-align: center;
+    padding: 5%;
+}
+.container iframe{
+    height: 100%;
+    width: 100%;
+}

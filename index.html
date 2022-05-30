@@ -4,10 +4,195 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
     <title>Document</title>
+    <script src="https://kit.fontawesome.com/82cc854c58.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+    <header>
+    <div class="container-fluid">
+      <div class="p-2 bg-highlight">
+        <nav class="navbar bg-highlight">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img src="images/AS logo.jpg" alt="" height="80">
+            </a>
+            <ul class="nav justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link Acceuil"  href="#">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link A propos" href="#">A propos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link Programmes" href="#">Programmes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link Formations" href="#">Formations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link Contact" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+    </header>
+
+    <main>
+      <div class="bg-image" 
+          style="background-image: url('images/bannière.jpg');
+            height: 65vh">  
+          <h2>ACADEMIE DU SUCCES <br>VOUS ACCOMPAGNE <br>POUR LE MEILLEUR !</h3>
+      </div> 
+      
+      <div class="container" >
+        <h2>DECOUVREZ NOS PROGRAMMES</h2>
+        <div class="row">
+          <div class="col m-2 border" style=" background-color: #195A6E;
+          color: white;">
+            <h3>Collège</h3>
+            Nous accompagnons les élèves de la 6ème en 3ème durant tous leurs parcours scolaires. L'objectif est de leur aider à se découvrir et à faire un bon choix de série après le BEPC.
+          </div>
+          <div class="col m-2 border" style=" background-color: #195A6E;
+          color: white;">
+            <h3 class="justify-content-center">Lycée</h3>
+            Nous accompagnons les élèves de la 6ème en 3ème durant tous leurs parcours scolaires. L'objectif est de leur aider à se découvrir et à faire un bon choix de filière selon leur profil.
+          </div>
+          <div class="col m-2 border" style=" background-color: #195A6E;
+          color: white;">
+            <h3>Université</h3>
+            Nous accompagnons les nouveaux bâcheliers et les étudiants durant tous leurs parcours universitaires. L’objectif est de leur aider à s’auto-discipliner et se préparer pour rentrer dans le monde professionnel.
+          </div>
+        </div>
+      </div>
+
+      <div class="container mb-5 py-3">
+        <h2>NOUS FORMONS EN:</h2>
+          <div class="row">
+            <div class="col m-3 ms-0 border" style="background-color:#C4C4C4 ; color: black;">
+              <h3>Coaching Scolaire</h3>
+              Nous formons toutes les personnes intéressées par l’accompagnement des élèves et étudiants. <br>
+              <br> Nous les amenons à découvrir les outils appropriés pour un accompagnement éfficace et fructueux..
+            </div>
+            <div class="col m-3 ms-0 border" style="background-color:#C4C4C4 ; color: black;" >
+              <h3>Leadership</h3>
+              Le leadership de nos jours est un domaine incontournable, puisqu’important dans le processus du développement de nos sociétés. <br>
+              <br> Chaque entreprise a besoin d’un leader. Ainsi nous offrons également des formations dans le domaine du leadership.
+            </div>
+          </div> 
+      </div>
+      
+
+      <div class="container mb-5 p-5 py-5" style="background-color:#E5E5E5;">
+          <h2>QUELQUES TEMOIGNAGES</h2>
+          <div class="card-group">
+            <div class="card mt-n4">
+              <img src="./images/t-emmanuel.jpg" class="card-img-top" alt="...">
+              <div class="card-body" style="background-color:#C4C4C4">
+                <h5 class="card-title">Emmanuel</h5>
+                <p class="card-text">Après mon Bac 2, je ne savais pas quelle filière choisir et le cabinet AS m’a accompagné dans ma découverte de soi. 
+                  Je suis content car j’ai pu faire finalement un bon choix.</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./images/t-goodie.jpg" class="card-img-top" height="170" alt="...">
+              <div class="card-body" style="background-color:#C4C4C4">
+                <h5 class="card-title mx-auto">Goodie</h5>
+                <p class="card-text">Etudiante en fin de formation BBA, le cabinet AS m’a aidé et accompagné depuis la rédaction de mon mémoire, jusqu’à ma soutenance</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./images/t-bénéficiaire.jpg" class="card-img-top" height="170" alt="...">
+              <div class="card-body" style="background-color:#C4C4C4">
+                <h5 class="card-title">Bénéficiaires CDE</h5>
+                <p class="card-text">Nous sommes heureux pour cette séance d’informations sur les différentes séries et filières.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container py-3" style="background-color: #195A6E; color: white;">
+          <h2>NOUS CONTACTER</h2>
+          <form class="row g-3">
+            <div class="col-md-6">
+              <label for="inputCivilité" class="form-label">Civilité</label>
+              <input type="civilité" class="form-control" id="inputCivilité">
+            </div>
+            <div class="col-md-6">
+              <label for="inputtitre" class="form-label">En tant que</label>
+              <input type="titre" class="form-control" id="inputtitre">
+            </div>
+            <div class="col-md-6">
+              <label for="inputprénom" class="form-label">Prénom</label>
+              <input type="prénom" class="form-control" id="inputprénom">
+            </div>
+            <div class="col-md-6">
+              <label for="inputnom" class="form-label">Nom</label>
+              <input type="nom" class="form-control" id="inputnom">
+            </div>
+            <div class="col-md-6">
+              <label for="inputEmail" class="form-label">Adresse Email</label>
+              <input type="adresseemail" class="form-control" id="inputadresseemail">
+            </div>
+            <div class="col-md-6">
+              <label for="inputnumber" class="form-label">Numéro de Téléphone</label>
+              <input type="tel" class="form-control" id="inputtel">
+            </div>
+            <div class="col-12">
+              <label for="message" class="form-label">Decrivez votre besoin</label>
+              <textarea  name="text" class="form-control" id="message"></textarea>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn" style="background-color: white; color: #195A6E;">Envoyer</button>
+            </div>
+          </form>
+        </div>
+
+        
+      <div class="container mb-5 py-3">
+        <div class="localisation-conteneur-icone"><a href=""><i class="fa-solid fa-location-dot" font-size="15%"></i></a></div>
+        <h2>OÙ NOUS RETROUVER</h2>
+          <div class="row">
+            <div class="col-md-8" >
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15866.436205392187!2d1.2601570000000002!3d6.1830471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1023e3aecc9fb14d%3A0x14c028c7ee9a78ac!2sTogo%202000!5e0!3m2!1sfr!2stg!4v1652129324827!5m2!1sfr!2stg" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col-md-4"  >
+              <P>Lomé-Hédzranawoé,<br>Rue 200, HDN Lomé,<br>Non loin de l'école FOADEY</P> <br>
+              <div class="localisation-conteneur-mail-number">
+                  Email: loveazianti@gmail.com
+              </div> <br>
+              <div class="localisation-conteneur-mail-number">
+                  Tel: +228 90566268 
+              </div>
+              <div class="localisation-conteneur-map-text">
+                  <p>Suivez-nous sur:</p> <br>
+              </div>
+              <div class="socialmedia-icone">
+                  <div><a href=""><i class="fa-brands fa-facebook"></i></a></div>
+                  <div><a href=""><i class="fa-brands fa-instagram-square"></i></a></div>
+                  <div><a href=""><i class="fa-brands fa-linkedin"></i></a></div>
+            </div>
+          </div> 
+      </div>
+
+
+        </div>
+          </div>
+          </div>
+        </div>
+    </main>
+
+
+
+
+
+
+
+
+
+    <link rel="stylesheet" href="/assets/bootstrap/js/bootstrap.min.js">
 </body>
 </html>
