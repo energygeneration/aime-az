@@ -13,11 +13,6 @@
 .container{
     width: 60%;
 }
-
-.container h2, h3, h5{
-    text-align: center;
-    padding: 5%;
-}
 .container iframe{
     height: 100%;
     width: 100%;
