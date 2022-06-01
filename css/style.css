@@ -1,18 +1,36 @@
-.bg-image{
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: 60%;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans:wght@300&display=swap');
+h1, h2, h3, h5{
+    font-family: 'Montserrat', sans-serif;
 }
-.bg-image h2{
-    margin-left: 56%;
-    padding-top: 15%;
-    color: white;
-    font-weight: 18px;
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+/*------------section lien---------*/
+.nav-link{
+    color: #195A6E;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Lora;
 }
 
-.container{
-    width: 60%;
+#hero h1{
+    padding-top: 35%;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
 }
+
+#hero .container{
+    width: 90%;
+    background-image: url(../images/bannière.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
 .container iframe{
     height: 100%;
     width: 100%;
