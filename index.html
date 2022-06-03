@@ -8,19 +8,23 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
+
     <title>Projet Coaching Scolaire</title>
+    <meta content="" name="description">
+
     <script src="https://kit.fontawesome.com/82cc854c58.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <!-----------======Mon header======-->
+
+    <!-- header section -->
     <header>
     <div class="container-fluid">
       <div class=" bg-highlight ">
         <nav class="navbar shadow bg-body rounded">
           <div class="container">
-            <a class="logo">
-              <img src="images/AS logo.jpg" alt="" height="100">
-            </a>
+            <div class="logo">
+              <img src="images/ASlogo.jpg" alt="" height="100">
+            </div>
             <ul class="nav">
               <li class="nav-item">
                 <a class="nav-link Acceuil"  href="#">Accueil</a>
@@ -43,7 +47,8 @@
       </div>
     </div>
     </header>
-    <!-----------======Ma section bannière======-->
+
+     <!-- hero section-->
     <section id="hero">
       <div class="container">
         <div class="row">
@@ -53,7 +58,8 @@
         </div>
       </div>
     </section>
-    <!-----------======Nos programmes======-->
+
+     <!-- program section -->
     <main>
       <section class="programme">
       <div class="container py-5 bg-light" >
@@ -77,25 +83,26 @@
         </div>
       </div>
     </section>
-    <!-----------======Nos formations======-->
+
+     <!-- training section -->
     <section class="formation">
       <div class="container mb-5 py-5">
         <h2 class="formation text-center mb-5">NOUS FORMONS EN:</h2>
           <div class="row justify-content-between">
-            <div class="col col-md-4 border" style="background-color:#C4C4C4 ; color: black;">
-              <h3 class="coaching text-center pt-4" style="color:#195A6E">Coaching Scolaire</h3>
+            <div class="col col-md-4 border" style="background-color:#C4C4C4">
+              <h3 class="coaching text-center pt-4 text-primary">Coaching Scolaire</h3>
                <p class="text-coaching pb-3">Nous formons toutes les personnes intéressées par l’accompagnement des élèves et étudiants. <br>
               <br> Nous les amenons à découvrir les outils appropriés pour un accompagnement éfficace et fructueux..</p> 
             </div>
-            <div class="col col-md-4 border" style="background-color:#C4C4C4 ; color: black;" >
-              <h3 class="leadership text-center pt-4" style="color:#195A6E">Leadership</h3>
+            <div class="col col-md-4 border" style="background-color:#C4C4C4" >
+              <h3 class="leadership text-center pt-4 text-primary">Leadership</h3>
                 <p class="text-leadership pb-3">Le leadership de nos jours est un domaine incontournable, puisqu’important dans le processus du développement de nos sociétés. <br>
               <br> Chaque entreprise a besoin d’un leader. Ainsi nous offrons également des formations dans le domaine du leadership.</p> 
             </div>
           </div> 
       </div>
     </section>
-    <!-----------======Les temoignages======-->
+     <!-- testimonies section-->
     <section class="temoignage">
       <div class="container mb-5 p-5 py-5" style="background-color:#E5E5E5;">
         <h2 class="temoignage text-center">QUELQUES TEMOIGNAGES</h2>
@@ -104,8 +111,7 @@
             <img src="./images/t-emmanuel.jpg" class="card-img-top" height="155" alt="...">
             <div class="card-body" style="background-color:#C4C4C4">
               <h5 class="card-title text-center">Emmanuel</h5>
-              <p class="card-text">Après mon Bac 2, je ne savais pas quelle filière choisir et le cabinet AS m’a accompagné dans ma découverte de soi. 
-                Je suis content car j’ai pu faire finalement un bon choix.</p>
+              <p class="card-text">Après mon Bac 2, je ne savais pas quelle filière choisir et le cabinet AS m’a accompagné dans ma découverte de soi. Je suis content car j’ai pu faire finalement un bon choix.</p>
             </div>
           </div>
           <div class="card m-3">
@@ -125,33 +131,34 @@
         </div>
       </div>
     </section>
-    <!-----------======Notre formulaire======-->
+
+     <!-- form section -->
     <section class="formulaire">
       <div class="container py-5" style="background-color: #195A6E; color: white;">
         <h2 class="contact text-center mb-3">NOUS CONTACTER</h2>
         <form class="row g-3">
           <div class="col-md-6">
-            <label for="inputCivilité" class="form-label">Civilité</label>
-            <input type="civilité" class="form-control" id="inputCivilité">
+            <label for="inputcivilité" class="form-label">Civilité</label>
+            <input type="text" class="form-control" id="inputcivilité">
           </div>
           <div class="col-md-6">
             <label for="inputtitre" class="form-label">En tant que</label>
-            <input type="titre" class="form-control" id="inputtitre">
+            <input type="text" class="form-control" id="inputtitre">
           </div>
           <div class="col-md-6">
             <label for="inputprénom" class="form-label">Prénom</label>
-            <input type="prénom" class="form-control" id="inputprénom">
+            <input type="text" class="form-control" id="inputprénom">
           </div>
           <div class="col-md-6">
             <label for="inputnom" class="form-label">Nom</label>
-            <input type="nom" class="form-control" id="inputnom">
+            <input type="text" class="form-control" id="inputnom">
           </div>
           <div class="col-md-6">
             <label for="inputEmail" class="form-label">Adresse Email</label>
-            <input type="adresseemail" class="form-control" id="inputadresseemail">
+            <input type="email" class="form-control" id="inputEmail">
           </div>
           <div class="col-md-6">
-            <label for="inputnumber" class="form-label">Numéro de Téléphone</label>
+            <label for="inputtel" class="form-label">Numéro de Téléphone</label>
             <input type="tel" class="form-control" id="inputtel">
           </div>
           <div class="col-12">
@@ -164,10 +171,11 @@
         </form>
       </div>
     </section>
-    <!-----------======Notre localisation======-->
+
+     <!-- map section -->
     <section class="localisation">
       <div class="container py-5">
-        <div class="localisation-conteneur-icone d-flex pt-5"><a href=""><i class="fa-solid fa-location-dot h1 text-primary"></i></a>
+        <div class="localisation-conteneur-icone d-flex pt-5"><a href="#"><i class="fa-solid fa-location-dot h1 text-primary"></i></a>
         <h2 class="map mb-5 ms-5">OÙ NOUS RETROUVER</h2></div>
           <div class="row">
             <div class="col-md-7">
@@ -185,15 +193,16 @@
                   <p class="follow text-center pt-3">Suivez-nous sur:</p> <br>
               </div>
               <div class="socialmedia-icone d-flex justify-content-evenly">
-                  <div><a href=""><i class="fa-brands fa-facebook h1 text-primary"></i></a></div>
-                  <div><a href=""><i class="fa-brands fa-instagram-square h1 text-primary"></i></a></div>
-                  <div><a href=""><i class="fa-brands fa-linkedin h1 text-primary"></i></a></div>
+                  <div><a href="#"><i class="fa-brands fa-facebook h1 text-primary"></i></a></div>
+                  <div><a href="#"><i class="fa-brands fa-instagram-square h1 text-primary"></i></a></div>
+                  <div><a href="#"><i class="fa-brands fa-linkedin h1 text-primary"></i></a></div>
             </div>
           </div> 
        </div>
       </div>
     </section>
-    <!-----------======Nos partenaires======--> 
+
+     <!-- partener section -->
     <section class="partenaire">
       <div class="container py-5">
         <h2 class="partneraire pt-3 mb-3">NOS PARTENAIRES</h2>
@@ -216,8 +225,9 @@
         </div>
       </div>
     </section>
-    <!-----------======Section footer======-->
-    <section class="footer">
+
+     <!-- footer section -->
+     <footer>
       <div class="container-fluid py-5" style="background-color:#195A6E">
         <div class="container text-center py-5 text-white" >
           <div class="row">
@@ -227,8 +237,8 @@
                   <div class="col-md-2">Plan du site</div> 
           </div>
         </div>
-      </div>
-    </section>   
+      </div> 
+    </footer> 
   </main>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>

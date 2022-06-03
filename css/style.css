@@ -7,7 +7,7 @@ p{
     font-size: 25px;
     font-weight: bold;
 }
-/*------------section lien---------*/
+/*------------link section---------*/
 .nav-link{
     color: #195A6E;
     font-size: 25px;
@@ -15,7 +15,7 @@ p{
     font-family: Lora;
 }
 
-/*------------section hero---------*/
+/*------------ hero section---------*/
 #hero h1{
     padding-top: 35%;
     color: white;
@@ -32,7 +32,7 @@ p{
     background-attachment: fixed;
 }
 
-/*------------section maps---------*/
+/*------------map section---------*/
 .container iframe{
     height: 100%;
     width: 100%;
