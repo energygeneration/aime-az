@@ -26,7 +26,7 @@ p{
 
 #hero .container{
     width: 90%;
-    background-image: url(../images/bannière.jpg);
+    background-image: url(../images/bannière.avif);
     background-size: cover;
     height: 100vh;
     background-attachment: fixed;
