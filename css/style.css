@@ -7,6 +7,11 @@ p{
     font-size: 25px;
     font-weight: bold;
 }
+
+.navbar-center{
+    justify-content: center;
+}
+
 /*------------link section---------*/
 .nav-link{
     color: #195A6E;
